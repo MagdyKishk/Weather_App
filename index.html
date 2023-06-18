@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer> </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <script src="./src/js/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <form class="main_form">
+        <h1>The Weather Right Now in
+          <input type="text" placeholder="">
+        </h1>
+      </form>
+      <h1>Showing <span></span></h1>
+    </header>
+    <main>
+      <div class="weather"><img src="./src/media/images/cloudy.png" alt="Cloudy">
+        <h2> </h2>
+      </div>
+      <div class="temp"> 
+        <h1><span></span> °C</h1>
+      </div>
+      <div class="details"> 
+        <div class="wind-speed">
+          <h5>Wind Speed</h5><img src="./src/media/images/wind.png" alt="wind">
+          <h3><span></span> m/s </h3>
+        </div>
+        <div class="humidity">
+          <h5>humidity</h5><img src="./src/media/images/humidity.png" alt="humidity">
+          <h3><span></span> %</h3>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+doctype html
+html(lang="en")
+  head
+    //- Meta Data
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Weather App
+
+    //- font Awesome
+        //- CSS
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css")
+        //- Js
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js", defer) 
+
+    //- Fonts
+    link(rel="preconnect", href="https://fonts.googleapis.com")
+    link(rel="preconnect", href="https://fonts.gstatic.com", crossorigin)
+    link(href!="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap", rel="stylesheet")
+
+    //- Custom Files
+        //- CSS
+    link(rel="stylesheet", href="./src/css/main.css")
+        //- Js
+    script(src="./src/js/main.js", defer)
+
+  body
+    header
+      form.main_form
+        h1 The Weather Right Now in#[input(type="text", placeholder="")]
+      h1 Showing #[span ]
+
+    main
+      .weather
+        img(src="./src/media/images/cloudy.png", alt="Cloudy")
+        h2 
+      .temp 
+        h1 #[span ] °C
+      .details 
+        .wind-speed
+            h5 Wind Speed
+            img(src="./src/media/images/wind.png", alt="wind")
+            h3 #[span ] m/s 
+        .humidity
+            h5 humidity
+            img(src="./src/media/images/humidity.png", alt="humidity")
+            h3 #[span ] %
+

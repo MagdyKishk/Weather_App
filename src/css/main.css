@@ -1,0 +1,113 @@
+/* Global Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Main Rules */
+
+body  {
+  background-color: #ededed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+header > h1 {
+  font-size: 32px;
+  margin-top: 100px;
+}
+
+header form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: #989898;
+  font-weight: 500;
+}
+
+header input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+  font-size: inherit;
+  font-weight: 500;
+  outline: none;
+  width: 200px;
+  padding: 0 0 0 5px;
+  position: relative;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  margin: 50px 0 0;
+}
+
+main > * {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main > *:not(:last-child) {
+  border-right: 3px solid #d0d0d0;
+}
+
+main .weather img {
+  width: 200px;
+}
+
+main .temp {
+  gap: 15px;
+}
+
+main .temp h1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+main .temp h1 span{
+  font-size: 72px;
+
+}
+
+main .details {
+  gap: 50px;
+}
+
+main .details h5 {
+  min-width: 100px;
+  max-width: fit-content;
+  color: #555;
+}
+main .details h3 {
+  min-width: 50px;
+  max-width: fit-content;
+}
+
+main .details > * {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+main .details img {
+  width: 40px;
+}
