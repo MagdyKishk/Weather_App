@@ -1,32 +1,24 @@
-# Weather APP
-I built this app ( website ) as a way to teach myself how to deal with fetching API and chaning Ui Acordingly  
-You can Check the app on [Vercel]()
+# Weather App
 
-<br>
+I built this app (website) as a way to teach myself how to fetch data from APIs and update the UI accordingly. You can check out the app on [Vercel](https://weather-app-magdykishk.vercel.app/).
 
-## About The Api
- The Api Used in this Project is [OpenWeatherApi]("https://openweathermap.org/")
+## About the API
 
+The API used in this project is [OpenWeatherApi](https://openweathermap.org/).
 
-<br>
+## What I Learned While Coding It
 
-## What Did I learn While Coding It
-I learned how to use Api(s) which will allow me to be more creative in the future  
-I Also Learned how to deal with async Functions in JavaScript  
+While coding this app, I learned how to use APIs, which will allow me to be more creative in the future. I also learned how to deal with asynchronous functions in JavaScript.
 
-<br>
+## About the UI
 
-## About The Ui
-The Ui was Inspired by [Matthew Kosloski]("https://dribbble.com/matthewkosloski") Weather app  
-
-<br>
+The UI was inspired by [Matthew Kosloski's](https://dribbble.com/matthewkosloski) weather app.
 
 ## Some Pictures
+
 ![Egypt](./src/media/screenshots/Egypt.png)
 ![Alexandria](./src/media/screenshots/alexandria.png)
-<br>
 
 ## What Changes Would I Make If I Rebuilt It Again
-I would try to make it more active with more animations  
-I would also add the ability to show kelvin and Fehrenhit Not only Celisus  
-I Would also make the image indecating the weather state change depnd on the weather  
+
+If I were to rebuild this app again, I would try to make it more interactive with more animations. I would also add the ability to show temperatures in Kelvin and Fahrenheit, not only Celsius. Additionally, I would make the image indicating the weather state change depending on the weather.
